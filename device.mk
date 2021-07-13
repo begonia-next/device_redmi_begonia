@@ -345,6 +345,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.videotelephony@1.0
 
+# Performance
+PRODUCT_PACKAGES += \
+    powerctl
+
 # MediaTek IMS
 $(call inherit-product, vendor/mediatek/ims/mtk-ims.mk)
 
