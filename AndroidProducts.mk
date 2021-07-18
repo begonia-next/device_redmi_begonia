@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_begonia.mk
+    $(LOCAL_DIR)/mokee_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+    mokee_begonia-user \
+    mokee_begonia-userdebug \
+    mokee_begonia-eng
