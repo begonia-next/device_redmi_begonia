@@ -348,6 +348,10 @@
 
     <!-- Should the pinner service pin the Camera application? -->
     <bool name="config_pinnerCameraApp">true</bool>
+    
+    <!-- sqlite sync -->
+    <string name="db_wal_sync_mode">OFF</string>
+    <string name="db_default_sync_mode">OFF</string>
 
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
