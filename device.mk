@@ -349,6 +349,10 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
+# Performance
+PRODUCT_PACKAGES += \
+    powerctl
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
